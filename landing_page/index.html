@@ -1,0 +1,186 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flexbox Navbar</title>
+        <style>
+            body {
+                margin: 0;
+                font-family: Arial, sans-serif;
+            }
+            .navbar {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px 20px;
+                background-color: #333;
+                color: white;
+            }
+            .navbar .left, .navbar .middle, .navbar .right {
+                display: flex;
+                align-items: center;
+            }
+            .navbar .middle {
+                flex-grow: 1;
+                justify-content: center;
+            }
+            .navbar .middle a {
+                margin: 0 15px;
+                text-decoration: none;
+                color: white;
+            }
+            .navbar .icon {
+                margin-right: 10px;
+            }
+            body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+            color: #333;
+        }
+        .container {
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .left, .right {
+            flex: 1;
+            padding: 20px;
+        }
+        .left {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .left h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .left p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .left .explore-btn {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            color: white;
+            background-color: #ff7f50;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .right img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+            color: #333;
+        }
+        .container {
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .left, .right {
+            flex: 1;
+            padding: 20px;
+        }
+        .left {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .left img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .right {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .right h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .right p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .right .about-btn {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            color: white;
+            background-color: #4CAF50;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="left">
+                <div class="icon">☰</div>
+                <div class="logo">Logo</div>
+            </div>
+            <div class="middle">
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+            </div>
+            <div class="right">
+                <div class="icon">👤</div>
+                <div class="icon">⚙️</div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="left">
+                <h1>Here you get all types of websites we make</h1>
+                <p>Discover a variety of web development services tailored to your needs. Explore our offerings and let us help you bring your vision to life.</p>
+                <button class="explore-btn">Explore</button>
+            </div>
+            <div class="right">
+                <img src="https://via.placeholder.com/600x400?text=Web+Development+with+AI" alt="Web Development with AI">
+            </div>
+        </div>
+        <div class="container">
+            <div class="left">
+                <img src="https://via.placeholder.com/400x600?text=Man+Image" alt="Man Image">
+            </div>
+            <div class="right">
+                <h1>Lorem20</h1>
+                <p>Welcome to our company! We are dedicated to providing the best services to our clients. Our team of experts is here to help you with all your needs and ensure your satisfaction.</p>
+                <button class="about-btn">About Us</button>
+            </div>
+        </div>
+    </body>
+    </html>
+                     
+</body>
+</html>
